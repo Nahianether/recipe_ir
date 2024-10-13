@@ -40,10 +40,10 @@ class RecipeInfoTextStack extends StatelessWidget {
             maxLines: 2,
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 5.0),
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 5.0),
           child: Row(
-            children: const [
+            children: [
               Icon(Icons.timer_outlined, size: 18.0),
               SizedBox(width: 5),
               Text('15 min'),
